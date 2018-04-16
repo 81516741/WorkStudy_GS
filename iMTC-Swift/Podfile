@@ -1,0 +1,5 @@
+target ‘iMTC-Swift’ do
+pod 'ReactiveCocoa', '7.0.1'
+pod 'RTRootNavigationController', '0.6.4'
+use_frameworks!
+end
