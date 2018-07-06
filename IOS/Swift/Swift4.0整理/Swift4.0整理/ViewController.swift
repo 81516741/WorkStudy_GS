@@ -67,6 +67,8 @@ class ViewController: UIViewController {
 //        print(Array(str.enumerated()))
 //        print("-----------")
 //        print(Array(zip(1..., str)))
+        let i = String(3)
+        print(i)
         
     }
 
