@@ -1,0 +1,6 @@
+framework module Pods_LDHotfixTool_Example {
+  umbrella header "Pods-LDHotfixTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

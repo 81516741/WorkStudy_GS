@@ -1,0 +1,6 @@
+framework module PodPublic {
+  umbrella header "PodPublic-umbrella.h"
+
+  export *
+  module * { export * }
+}

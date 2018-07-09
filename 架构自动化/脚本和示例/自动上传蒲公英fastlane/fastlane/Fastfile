@@ -1,0 +1,11 @@
+
+default_platform(:ios)
+
+platform :ios do 
+  	desc "打包并上传到蒲公英"
+  	lane :build do |options|
+	des = options[:des]
+  	build_app(export_method: "ad-hoc")
+  	pgyer(api_key: "3385ed845555b7d7cb04c14d383bb003", user_key: 	"067ef4c59c502cc16233cf337bf8a05d", update_description: "#{des}")
+	end
+end

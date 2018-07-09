@@ -1,0 +1,6 @@
+framework module Pods_LDMainArch_Tests {
+  umbrella header "Pods-LDMainArch_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

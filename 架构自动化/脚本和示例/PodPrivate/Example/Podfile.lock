@@ -1,0 +1,16 @@
+PODS:
+  - PodPrivate (0.1.0)
+
+DEPENDENCIES:
+  - PodPrivate (from `../`)
+
+EXTERNAL SOURCES:
+  PodPrivate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PodPrivate: 6adb559f81b28a6b18dfce2f1b5cbd94a847ebd7
+
+PODFILE CHECKSUM: e8f45287cb949cb6c1bbccdd280385e3498d1c48
+
+COCOAPODS: 1.4.0

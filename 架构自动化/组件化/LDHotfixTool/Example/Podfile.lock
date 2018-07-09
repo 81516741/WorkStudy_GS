@@ -1,0 +1,19 @@
+PODS:
+  - Aspects (1.4.1)
+  - LDHotfixTool (0.1.0):
+    - Aspects
+
+DEPENDENCIES:
+  - LDHotfixTool (from `../`)
+
+EXTERNAL SOURCES:
+  LDHotfixTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  LDHotfixTool: f3ff54ba1f88b4b929bbf0013342238f08144895
+
+PODFILE CHECKSUM: b6da22610bc0a1ae018c0f8231cb06d8e2551dfc
+
+COCOAPODS: 1.4.0

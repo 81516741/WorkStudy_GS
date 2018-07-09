@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LDLoginVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGW-ba-0Z8">
+                    <rect key="frame" x="163" y="319" width="49" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6m-Po-EIN">
+                    <rect key="frame" x="156.5" y="392" width="62" height="30"/>
+                    <state key="normal" title="登录成功"/>
+                    <connections>
+                        <action selector="loginSuccess:" destination="-1" eventType="touchUpInside" id="IRs-0K-P4P"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="V6m-Po-EIN" firstAttribute="top" secondItem="OGW-ba-0Z8" secondAttribute="bottom" constant="44" id="8qc-xG-1Qa"/>
+                <constraint firstItem="OGW-ba-0Z8" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ZUu-hj-YwN"/>
+                <constraint firstItem="V6m-Po-EIN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dE6-Mt-XcM"/>
+                <constraint firstItem="OGW-ba-0Z8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zBp-yL-hKs"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

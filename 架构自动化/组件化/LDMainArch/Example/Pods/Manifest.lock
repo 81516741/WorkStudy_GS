@@ -1,0 +1,16 @@
+PODS:
+  - LDMainArch (0.1.0)
+
+DEPENDENCIES:
+  - LDMainArch (from `../`)
+
+EXTERNAL SOURCES:
+  LDMainArch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LDMainArch: e12049aabf2dbbceb1f1a7deeec30dc16e74b448
+
+PODFILE CHECKSUM: d6f150e2dda5a799677dbf44d1fa41671e8f1446
+
+COCOAPODS: 1.4.0

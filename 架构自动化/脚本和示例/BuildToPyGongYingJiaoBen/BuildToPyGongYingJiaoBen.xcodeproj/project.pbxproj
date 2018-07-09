@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DDFE17F2064D23A0053F380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDFE17E2064D23A0053F380 /* AppDelegate.m */; };
+		0DDFE1822064D23A0053F380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDFE1812064D23A0053F380 /* ViewController.m */; };
+		0DDFE1852064D23A0053F380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDFE1832064D23A0053F380 /* Main.storyboard */; };
+		0DDFE1872064D23A0053F380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDFE1862064D23A0053F380 /* Assets.xcassets */; };
+		0DDFE18A2064D23A0053F380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDFE1882064D23A0053F380 /* LaunchScreen.storyboard */; };
+		0DDFE18D2064D23A0053F380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDFE18C2064D23A0053F380 /* main.m */; };
+		0DDFE1972064D23B0053F380 /* BuildToPyGongYingJiaoBenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDFE1962064D23B0053F380 /* BuildToPyGongYingJiaoBenTests.m */; };
+		0DDFE1A22064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDFE1A12064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests.m */; };
+		0DDFE1B02064D32F0053F380 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0DDFE1AF2064D32F0053F380 /* Podfile */; };
+		2EAE7D2ECD683027A2A5C7A7 /* Pods_BuildToPyGongYingJiaoBen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3171BE89BD0E704B8F7490AA /* Pods_BuildToPyGongYingJiaoBen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DDFE1932064D23B0053F380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDFE1722064D23A0053F380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDFE1792064D23A0053F380;
+			remoteInfo = BuildToPyGongYingJiaoBen;
+		};
+		0DDFE19E2064D23B0053F380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDFE1722064D23A0053F380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDFE1792064D23A0053F380;
+			remoteInfo = BuildToPyGongYingJiaoBen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DDFE17A2064D23A0053F380 /* BuildToPyGongYingJiaoBen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildToPyGongYingJiaoBen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDFE17D2064D23A0053F380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DDFE17E2064D23A0053F380 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DDFE1802064D23A0053F380 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DDFE1812064D23A0053F380 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DDFE1842064D23A0053F380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DDFE1862064D23A0053F380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DDFE1892064D23A0053F380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DDFE18B2064D23A0053F380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDFE18C2064D23A0053F380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DDFE1922064D23B0053F380 /* BuildToPyGongYingJiaoBenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildToPyGongYingJiaoBenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDFE1962064D23B0053F380 /* BuildToPyGongYingJiaoBenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildToPyGongYingJiaoBenTests.m; sourceTree = "<group>"; };
+		0DDFE1982064D23B0053F380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDFE19D2064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildToPyGongYingJiaoBenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDFE1A12064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildToPyGongYingJiaoBenUITests.m; sourceTree = "<group>"; };
+		0DDFE1A32064D23B0053F380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDFE1AF2064D32F0053F380 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1293000B816D2CB8D5DDC9CB /* Pods-BuildToPyGongYingJiaoBen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildToPyGongYingJiaoBen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuildToPyGongYingJiaoBen/Pods-BuildToPyGongYingJiaoBen.debug.xcconfig"; sourceTree = "<group>"; };
+		3171BE89BD0E704B8F7490AA /* Pods_BuildToPyGongYingJiaoBen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuildToPyGongYingJiaoBen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90B5EB1691C7F2485A48D97 /* Pods-BuildToPyGongYingJiaoBen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildToPyGongYingJiaoBen.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuildToPyGongYingJiaoBen/Pods-BuildToPyGongYingJiaoBen.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DDFE1772064D23A0053F380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAE7D2ECD683027A2A5C7A7 /* Pods_BuildToPyGongYingJiaoBen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDFE18F2064D23B0053F380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDFE19A2064D23B0053F380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034B106987C4C589459FBDC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1293000B816D2CB8D5DDC9CB /* Pods-BuildToPyGongYingJiaoBen.debug.xcconfig */,
+				C90B5EB1691C7F2485A48D97 /* Pods-BuildToPyGongYingJiaoBen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0DDFE1712064D23A0053F380 = {
+			isa = PBXGroup;
+			children = (
+				0DDFE1AF2064D32F0053F380 /* Podfile */,
+				0DDFE17C2064D23A0053F380 /* BuildToPyGongYingJiaoBen */,
+				0DDFE1952064D23B0053F380 /* BuildToPyGongYingJiaoBenTests */,
+				0DDFE1A02064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests */,
+				0DDFE17B2064D23A0053F380 /* Products */,
+				034B106987C4C589459FBDC7 /* Pods */,
+				8ED0399A9DB11516786D1F05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DDFE17B2064D23A0053F380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DDFE17A2064D23A0053F380 /* BuildToPyGongYingJiaoBen.app */,
+				0DDFE1922064D23B0053F380 /* BuildToPyGongYingJiaoBenTests.xctest */,
+				0DDFE19D2064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DDFE17C2064D23A0053F380 /* BuildToPyGongYingJiaoBen */ = {
+			isa = PBXGroup;
+			children = (
+				0DDFE17D2064D23A0053F380 /* AppDelegate.h */,
+				0DDFE17E2064D23A0053F380 /* AppDelegate.m */,
+				0DDFE1802064D23A0053F380 /* ViewController.h */,
+				0DDFE1812064D23A0053F380 /* ViewController.m */,
+				0DDFE1832064D23A0053F380 /* Main.storyboard */,
+				0DDFE1862064D23A0053F380 /* Assets.xcassets */,
+				0DDFE1882064D23A0053F380 /* LaunchScreen.storyboard */,
+				0DDFE18B2064D23A0053F380 /* Info.plist */,
+				0DDFE18C2064D23A0053F380 /* main.m */,
+			);
+			path = BuildToPyGongYingJiaoBen;
+			sourceTree = "<group>";
+		};
+		0DDFE1952064D23B0053F380 /* BuildToPyGongYingJiaoBenTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DDFE1962064D23B0053F380 /* BuildToPyGongYingJiaoBenTests.m */,
+				0DDFE1982064D23B0053F380 /* Info.plist */,
+			);
+			path = BuildToPyGongYingJiaoBenTests;
+			sourceTree = "<group>";
+		};
+		0DDFE1A02064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DDFE1A12064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests.m */,
+				0DDFE1A32064D23B0053F380 /* Info.plist */,
+			);
+			path = BuildToPyGongYingJiaoBenUITests;
+			sourceTree = "<group>";
+		};
+		8ED0399A9DB11516786D1F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3171BE89BD0E704B8F7490AA /* Pods_BuildToPyGongYingJiaoBen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DDFE1792064D23A0053F380 /* BuildToPyGongYingJiaoBen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDFE1A62064D23B0053F380 /* Build configuration list for PBXNativeTarget "BuildToPyGongYingJiaoBen" */;
+			buildPhases = (
+				7513F13DE2EE5B6CFEB07CF1 /* [CP] Check Pods Manifest.lock */,
+				0DDFE1762064D23A0053F380 /* Sources */,
+				0DDFE1772064D23A0053F380 /* Frameworks */,
+				0DDFE1782064D23A0053F380 /* Resources */,
+				12FC585BA662DECBC74A34E7 /* [CP] Embed Pods Frameworks */,
+				D37D367C340B09E11A7C1354 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuildToPyGongYingJiaoBen;
+			productName = BuildToPyGongYingJiaoBen;
+			productReference = 0DDFE17A2064D23A0053F380 /* BuildToPyGongYingJiaoBen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DDFE1912064D23B0053F380 /* BuildToPyGongYingJiaoBenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDFE1A92064D23B0053F380 /* Build configuration list for PBXNativeTarget "BuildToPyGongYingJiaoBenTests" */;
+			buildPhases = (
+				0DDFE18E2064D23B0053F380 /* Sources */,
+				0DDFE18F2064D23B0053F380 /* Frameworks */,
+				0DDFE1902064D23B0053F380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DDFE1942064D23B0053F380 /* PBXTargetDependency */,
+			);
+			name = BuildToPyGongYingJiaoBenTests;
+			productName = BuildToPyGongYingJiaoBenTests;
+			productReference = 0DDFE1922064D23B0053F380 /* BuildToPyGongYingJiaoBenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DDFE19C2064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDFE1AC2064D23B0053F380 /* Build configuration list for PBXNativeTarget "BuildToPyGongYingJiaoBenUITests" */;
+			buildPhases = (
+				0DDFE1992064D23B0053F380 /* Sources */,
+				0DDFE19A2064D23B0053F380 /* Frameworks */,
+				0DDFE19B2064D23B0053F380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DDFE19F2064D23B0053F380 /* PBXTargetDependency */,
+			);
+			name = BuildToPyGongYingJiaoBenUITests;
+			productName = BuildToPyGongYingJiaoBenUITests;
+			productReference = 0DDFE19D2064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DDFE1722064D23A0053F380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "令达";
+				TargetAttributes = {
+					0DDFE1792064D23A0053F380 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					0DDFE1912064D23B0053F380 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DDFE1792064D23A0053F380;
+					};
+					0DDFE19C2064D23B0053F380 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DDFE1792064D23A0053F380;
+					};
+				};
+			};
+			buildConfigurationList = 0DDFE1752064D23A0053F380 /* Build configuration list for PBXProject "BuildToPyGongYingJiaoBen" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DDFE1712064D23A0053F380;
+			productRefGroup = 0DDFE17B2064D23A0053F380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DDFE1792064D23A0053F380 /* BuildToPyGongYingJiaoBen */,
+				0DDFE1912064D23B0053F380 /* BuildToPyGongYingJiaoBenTests */,
+				0DDFE19C2064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DDFE1782064D23A0053F380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDFE18A2064D23A0053F380 /* LaunchScreen.storyboard in Resources */,
+				0DDFE1872064D23A0053F380 /* Assets.xcassets in Resources */,
+				0DDFE1B02064D32F0053F380 /* Podfile in Resources */,
+				0DDFE1852064D23A0053F380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDFE1902064D23B0053F380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDFE19B2064D23B0053F380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12FC585BA662DECBC74A34E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BuildToPyGongYingJiaoBen/Pods-BuildToPyGongYingJiaoBen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuildToPyGongYingJiaoBen/Pods-BuildToPyGongYingJiaoBen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7513F13DE2EE5B6CFEB07CF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuildToPyGongYingJiaoBen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37D367C340B09E11A7C1354 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuildToPyGongYingJiaoBen/Pods-BuildToPyGongYingJiaoBen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DDFE1762064D23A0053F380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDFE1822064D23A0053F380 /* ViewController.m in Sources */,
+				0DDFE18D2064D23A0053F380 /* main.m in Sources */,
+				0DDFE17F2064D23A0053F380 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDFE18E2064D23B0053F380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDFE1972064D23B0053F380 /* BuildToPyGongYingJiaoBenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDFE1992064D23B0053F380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDFE1A22064D23B0053F380 /* BuildToPyGongYingJiaoBenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DDFE1942064D23B0053F380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DDFE1792064D23A0053F380 /* BuildToPyGongYingJiaoBen */;
+			targetProxy = 0DDFE1932064D23B0053F380 /* PBXContainerItemProxy */;
+		};
+		0DDFE19F2064D23B0053F380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DDFE1792064D23A0053F380 /* BuildToPyGongYingJiaoBen */;
+			targetProxy = 0DDFE19E2064D23B0053F380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DDFE1832064D23A0053F380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DDFE1842064D23A0053F380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DDFE1882064D23A0053F380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DDFE1892064D23A0053F380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DDFE1A42064D23B0053F380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DDFE1A52064D23B0053F380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DDFE1A72064D23B0053F380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1293000B816D2CB8D5DDC9CB /* Pods-BuildToPyGongYingJiaoBen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6PC6RGKAHL;
+				INFOPLIST_FILE = BuildToPyGongYingJiaoBen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.ada1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e52b9df3-615e-4eb0-8efe-6bc2f5d99321";
+				PROVISIONING_PROFILE_SPECIFIER = AdHoc1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DDFE1A82064D23B0053F380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90B5EB1691C7F2485A48D97 /* Pods-BuildToPyGongYingJiaoBen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6PC6RGKAHL;
+				INFOPLIST_FILE = BuildToPyGongYingJiaoBen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.ada1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e52b9df3-615e-4eb0-8efe-6bc2f5d99321";
+				PROVISIONING_PROFILE_SPECIFIER = AdHoc1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DDFE1AA2064D23B0053F380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuildToPyGongYingJiaoBenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.ada.BuildToPyGongYingJiaoBenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen";
+			};
+			name = Debug;
+		};
+		0DDFE1AB2064D23B0053F380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuildToPyGongYingJiaoBenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.ada.BuildToPyGongYingJiaoBenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen";
+			};
+			name = Release;
+		};
+		0DDFE1AD2064D23B0053F380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuildToPyGongYingJiaoBenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.ada.BuildToPyGongYingJiaoBenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuildToPyGongYingJiaoBen;
+			};
+			name = Debug;
+		};
+		0DDFE1AE2064D23B0053F380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuildToPyGongYingJiaoBenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.ada.BuildToPyGongYingJiaoBenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuildToPyGongYingJiaoBen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DDFE1752064D23A0053F380 /* Build configuration list for PBXProject "BuildToPyGongYingJiaoBen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDFE1A42064D23B0053F380 /* Debug */,
+				0DDFE1A52064D23B0053F380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDFE1A62064D23B0053F380 /* Build configuration list for PBXNativeTarget "BuildToPyGongYingJiaoBen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDFE1A72064D23B0053F380 /* Debug */,
+				0DDFE1A82064D23B0053F380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDFE1A92064D23B0053F380 /* Build configuration list for PBXNativeTarget "BuildToPyGongYingJiaoBenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDFE1AA2064D23B0053F380 /* Debug */,
+				0DDFE1AB2064D23B0053F380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDFE1AC2064D23B0053F380 /* Build configuration list for PBXNativeTarget "BuildToPyGongYingJiaoBenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDFE1AD2064D23B0053F380 /* Debug */,
+				0DDFE1AE2064D23B0053F380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DDFE1722064D23A0053F380 /* Project object */;
+}

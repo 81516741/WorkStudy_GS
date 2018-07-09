@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'BuildToPyGongYingJiaoBen' do
+pod 'MJExtension'
+end

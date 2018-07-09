@@ -1,0 +1,6 @@
+framework module LDHotfixTool {
+  umbrella header "LDHotfixTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EB1F422634AD4E9DE912CF2F52E1AB /* LDConfigVCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18003B5D0D00E06551307A7F3F2B1711 /* LDConfigVCTool.m */; };
+		04D25C8F5EDD1A63ACC00F6BD13B2102 /* LDMediator+LDModuleLoginActions.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF36FE43F9A5A77822E53DD242C7E79 /* LDMediator+LDModuleLoginActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EDC3F26DDB52869E7A60244F1F59D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1F577BFEED8977B9C83E57A901D93980 /* P1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D2EDD9DF47869A85413701C0E6967A /* P1.png */; };
+		1F888BDD12813694394E1F99106C1E61 /* UITabBarController+LDBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3696E572F3731A8EC02461EE1EF32B8A /* UITabBarController+LDBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FFC6DAFD6227733D4621FFD1CF4EB41 /* UINavigationController+LDBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADDF07710535D40FAAF251E090C212C /* UINavigationController+LDBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		208C443F1D7BA17DD0942D844828508C /* P2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22CD963DC6D31F7D9439A78125A5CDA1 /* P2.png */; };
+		291FFE10CA8A36E50437D2F642053C37 /* LDMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 271B7EB4B0146ADB708DFCB6A1A01A86 /* LDMediator.m */; };
+		45DF228FAEB035BA4FE761F2B5FCB448 /* UIViewController+LDLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEB4B68990E24B2BA7AFE6DB34F7AD0 /* UIViewController+LDLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468ECCF0FA61AC646B3C995171422E6C /* UINavigationController+LDBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A04C5A2FA53D20534DBD9FFB0A99B7 /* UINavigationController+LDBase.m */; };
+		475DC94BFB3D9A52B905278C34C6A2DA /* P4.png in Resources */ = {isa = PBXBuildFile; fileRef = 641CA427F1B972DAD15E5DF099959FFE /* P4.png */; };
+		53968E583EBF780D3387217156704A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		580963621ACC6BCFE8477DF0D69BE3BE /* UIViewController+LDNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC07E6E7517A7003E218147F90922AF /* UIViewController+LDNaviBar.m */; };
+		5C0A90A5DF03A6F51AF25AF0E0B40D09 /* Pods-LDMainArch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B86857542C6996102286E9644F50C8AB /* Pods-LDMainArch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E8FB17CAD6614305E89C8EF0C83F19D /* Pods-LDMainArch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E16467FC1700222A22740D6560DF4 /* Pods-LDMainArch_Tests-dummy.m */; };
+		6D7E6C786C7417248DEC5811EA89DAD9 /* LDLoadMainArchSourceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB81921E99E8FCCFE11D3D82B10D21D6 /* LDLoadMainArchSourceTool.m */; };
+		87154568A26D83BF312BAD70FABC8DFC /* icon_back_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B15E7FCACB8783378B42CA3726C3CB /* icon_back_default.png */; };
+		89CB332D6CEE635A110E0B7D7426AB58 /* LDMediator+LDModuleAActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 977A1CB2F3B2DC982782C9C2210F5E3D /* LDMediator+LDModuleAActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		903349F6F75A13FCBB92569F10DD7986 /* NSObject+LDBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 060228DE9E9C21960D4854D074213C5F /* NSObject+LDBase.m */; };
+		9261E632956B8589B2FCF3D14ACB38C0 /* LDMediator+LDModuleBActions.h in Headers */ = {isa = PBXBuildFile; fileRef = E388F2DB68B21491AEFDCE49664A06D1 /* LDMediator+LDModuleBActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2868DE8B4AC0096265C298299E2F5A1 /* LDMediator+LDModuleBActions.m in Sources */ = {isa = PBXBuildFile; fileRef = F67B4ADF647401E0248E02DF795BA530 /* LDMediator+LDModuleBActions.m */; };
+		B44F8A4A5806F46C774B48B67850E24E /* LDMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3E9D08A041A4B2C6E147BEB8DEADA6 /* LDMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8688B22A14358FFB850551363348DBF /* UITabBarController+LDBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE9977EF453CEEEDD959D128DBB8D /* UITabBarController+LDBase.m */; };
+		C4B17D6FE8E254A8BE0891352D85AC41 /* LDMediator+LDModuleAActions.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC055B49CF8E84768F3E11096FE8895 /* LDMediator+LDModuleAActions.m */; };
+		CC481BA395844AA374E641E7A2BA2F11 /* LDMainArch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D536790F8C370A19D0B25BF2ED5CAC8 /* LDMainArch-dummy.m */; };
+		CE904231C420A0770C4328A0464F6C7E /* LDMediator+LDModuleLoginActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8BEEF751CD0A8D4CC8493D5611CAC9 /* LDMediator+LDModuleLoginActions.m */; };
+		CFD807BB87234143CC60A63148E5D30A /* Pods-LDMainArch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 291BFD8C3D7C4D70AC34B438B4AE2D42 /* Pods-LDMainArch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D312158EBF810F506BA224794A903FF5 /* Pods-LDMainArch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE021BC920217ED95EABDFFF11A5BA /* Pods-LDMainArch_Example-dummy.m */; };
+		E46BEC1A8CC32DEA5101627F616DC1AC /* UIViewController+LDNaviBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B88F0B72255F1074896AE90BF8F51E25 /* UIViewController+LDNaviBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E665375FB20BA5B684D4BE427D76B5BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF5605DA90AE573CFFA56A29E4648529 /* LDMainArch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3BAF5EA45EE58D01F71829ED1B5962 /* LDMainArch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F35292CEBEFC170603D7BF6FFEA2A726 /* LDLoadMainArchSourceTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B49F038C50A333D1CF50BD4BF4C1768 /* LDLoadMainArchSourceTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72E5EC94214548A0718334BD3F8C7ED /* BTN_entre.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D3E2FC942BF49552FA846C488DB4F8 /* BTN_entre.png */; };
+		FABD0ED5A75C8DEE3A351A32E859E048 /* NSObject+LDBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A88346DADA526CCFBAEC66E046DBF /* NSObject+LDBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBE72EAFF27EABEF065D7C7CA2D55DDD /* P3.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A89961617041BDC40B4A8508CE13D9 /* P3.png */; };
+		FDAC6E4C4BFF18A6EA3394A4FC41C4BF /* UIViewController+LDLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E659B53684B0CE2221300E2D754B38 /* UIViewController+LDLogin.m */; };
+		FDD34BAC9BC22ABF2B57CD8F9458731D /* LDConfigVCTool.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCC1915BB166F9A9DCDECAE5B19BF1A /* LDConfigVCTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1C598F55FC15E871520A44BB5E642F /* LDMainArch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55C883F8C0424D2A8C38E76B1CCDC080 /* LDMainArch.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35D2FDB2D9C071161B738326F29CD627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B29A3B07FF8A157FCB83896DC9F8A93;
+			remoteInfo = "LDMainArch-LDMainArch";
+		};
+		551582D73C43688C53A6F219CC784D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF855FB22AB0EDE38FDDE8D34068D435;
+			remoteInfo = LDMainArch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0475842B490E18DCC7E2C9D813AA2347 /* Pods-LDMainArch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDMainArch_Tests-resources.sh"; sourceTree = "<group>"; };
+		060228DE9E9C21960D4854D074213C5F /* NSObject+LDBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LDBase.m"; sourceTree = "<group>"; };
+		0FEB4B68990E24B2BA7AFE6DB34F7AD0 /* UIViewController+LDLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LDLogin.h"; sourceTree = "<group>"; };
+		18003B5D0D00E06551307A7F3F2B1711 /* LDConfigVCTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDConfigVCTool.m; sourceTree = "<group>"; };
+		18452B6B9BC1D5855E8967B86C4D9C63 /* Pods-LDMainArch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDMainArch_Example.modulemap"; sourceTree = "<group>"; };
+		1983B1F57B798422708CABE32384B138 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A391AA8ADF68902E3A9EE32B7F35ECD /* Pods-LDMainArch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDMainArch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A3AFAEC19744DED980E278742A18F80 /* LDMainArch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDMainArch.modulemap; sourceTree = "<group>"; };
+		1BAB870BB591B6CAD1A9F992C7309D1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D536790F8C370A19D0B25BF2ED5CAC8 /* LDMainArch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDMainArch-dummy.m"; sourceTree = "<group>"; };
+		21A89961617041BDC40B4A8508CE13D9 /* P3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = P3.png; path = LDMainArch/Assets/P3.png; sourceTree = "<group>"; };
+		22CD963DC6D31F7D9439A78125A5CDA1 /* P2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = P2.png; path = LDMainArch/Assets/P2.png; sourceTree = "<group>"; };
+		271B7EB4B0146ADB708DFCB6A1A01A86 /* LDMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDMediator.m; sourceTree = "<group>"; };
+		291BFD8C3D7C4D70AC34B438B4AE2D42 /* Pods-LDMainArch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDMainArch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		29B15E7FCACB8783378B42CA3726C3CB /* icon_back_default.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_back_default.png; path = LDMainArch/Assets/icon_back_default.png; sourceTree = "<group>"; };
+		2D8BEEF751CD0A8D4CC8493D5611CAC9 /* LDMediator+LDModuleLoginActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDMediator+LDModuleLoginActions.m"; sourceTree = "<group>"; };
+		330F508B151BC161FFFAFC9D17C88081 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3358085B25D43CB97E13D44814243598 /* Pods-LDMainArch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDMainArch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		33F78E64EB0AAA3944F11D719B74EBDD /* Pods-LDMainArch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDMainArch_Example-resources.sh"; sourceTree = "<group>"; };
+		3696E572F3731A8EC02461EE1EF32B8A /* UITabBarController+LDBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+LDBase.h"; sourceTree = "<group>"; };
+		39B05B024E235107665B5A64399AE384 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		435A56CA75874A6F874FE0BE2351908C /* Pods-LDMainArch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDMainArch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46A04C5A2FA53D20534DBD9FFB0A99B7 /* UINavigationController+LDBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LDBase.m"; sourceTree = "<group>"; };
+		50BDF22E60DB84964563499ACEC3BE81 /* Pods-LDMainArch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDMainArch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		55C883F8C0424D2A8C38E76B1CCDC080 /* LDMainArch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LDMainArch.bundle; path = "LDMainArch-LDMainArch.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D2EDD9DF47869A85413701C0E6967A /* P1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = P1.png; path = LDMainArch/Assets/P1.png; sourceTree = "<group>"; };
+		5ADDF07710535D40FAAF251E090C212C /* UINavigationController+LDBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LDBase.h"; sourceTree = "<group>"; };
+		5B1E16467FC1700222A22740D6560DF4 /* Pods-LDMainArch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDMainArch_Tests-dummy.m"; sourceTree = "<group>"; };
+		5B769CFB945F183C13F389149760DAC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3BAF5EA45EE58D01F71829ED1B5962 /* LDMainArch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDMainArch-umbrella.h"; sourceTree = "<group>"; };
+		641CA427F1B972DAD15E5DF099959FFE /* P4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = P4.png; path = LDMainArch/Assets/P4.png; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69178B5CE516D958956A4E93F91676ED /* ResourceBundle-LDMainArch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LDMainArch-Info.plist"; sourceTree = "<group>"; };
+		7231929815FB7507698234E5D917BD3F /* Pods-LDMainArch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDMainArch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		76CCE9977EF453CEEEDD959D128DBB8D /* UITabBarController+LDBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+LDBase.m"; sourceTree = "<group>"; };
+		7B49F038C50A333D1CF50BD4BF4C1768 /* LDLoadMainArchSourceTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDLoadMainArchSourceTool.h; sourceTree = "<group>"; };
+		7B93ABB074BEE405C50104091EC02CCE /* LDMainArch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDMainArch.xcconfig; sourceTree = "<group>"; };
+		7C1B2CA1BD16F01268C511DE9BB8B49F /* Pods-LDMainArch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDMainArch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		832A88346DADA526CCFBAEC66E046DBF /* NSObject+LDBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+LDBase.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977A1CB2F3B2DC982782C9C2210F5E3D /* LDMediator+LDModuleAActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDMediator+LDModuleAActions.h"; sourceTree = "<group>"; };
+		A666F8E039E5AFD4C90498FD02312094 /* Pods_LDMainArch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LDMainArch_Example.framework; path = "Pods-LDMainArch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC055B49CF8E84768F3E11096FE8895 /* LDMediator+LDModuleAActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDMediator+LDModuleAActions.m"; sourceTree = "<group>"; };
+		AEC07E6E7517A7003E218147F90922AF /* UIViewController+LDNaviBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LDNaviBar.m"; sourceTree = "<group>"; };
+		AFD5C1511EF72F4A9CE64043353BE751 /* LDMainArch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LDMainArch.framework; path = LDMainArch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70E18B12E711F9CACB73D86A70B5627 /* Pods-LDMainArch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDMainArch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B86857542C6996102286E9644F50C8AB /* Pods-LDMainArch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDMainArch_Example-umbrella.h"; sourceTree = "<group>"; };
+		B88F0B72255F1074896AE90BF8F51E25 /* UIViewController+LDNaviBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LDNaviBar.h"; sourceTree = "<group>"; };
+		BE3E9D08A041A4B2C6E147BEB8DEADA6 /* LDMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDMediator.h; sourceTree = "<group>"; };
+		BFCC1915BB166F9A9DCDECAE5B19BF1A /* LDConfigVCTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDConfigVCTool.h; sourceTree = "<group>"; };
+		C2026D8AC30E0D3EB35624BC4FE95948 /* LDMainArch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LDMainArch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9FBF6DEB49C08DF7716F2CF49EDE47F /* Pods-LDMainArch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDMainArch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB81921E99E8FCCFE11D3D82B10D21D6 /* LDLoadMainArchSourceTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDLoadMainArchSourceTool.m; sourceTree = "<group>"; };
+		D2192A1B450A50FEA696D9DBE57F0BB6 /* Pods-LDMainArch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDMainArch_Tests.modulemap"; sourceTree = "<group>"; };
+		D29B994A96C419D058AB091487317E7E /* Pods_LDMainArch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LDMainArch_Tests.framework; path = "Pods-LDMainArch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FE021BC920217ED95EABDFFF11A5BA /* Pods-LDMainArch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDMainArch_Example-dummy.m"; sourceTree = "<group>"; };
+		D5CB973DECA6EBF9A41BE992B738554A /* Pods-LDMainArch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDMainArch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6E659B53684B0CE2221300E2D754B38 /* UIViewController+LDLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LDLogin.m"; sourceTree = "<group>"; };
+		D9AA4D43E832AD6DCEB19C4CAA59FDA2 /* Pods-LDMainArch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDMainArch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E388F2DB68B21491AEFDCE49664A06D1 /* LDMediator+LDModuleBActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDMediator+LDModuleBActions.h"; sourceTree = "<group>"; };
+		ECF36FE43F9A5A77822E53DD242C7E79 /* LDMediator+LDModuleLoginActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDMediator+LDModuleLoginActions.h"; sourceTree = "<group>"; };
+		F3D3E2FC942BF49552FA846C488DB4F8 /* BTN_entre.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = BTN_entre.png; path = LDMainArch/Assets/BTN_entre.png; sourceTree = "<group>"; };
+		F67B4ADF647401E0248E02DF795BA530 /* LDMediator+LDModuleBActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDMediator+LDModuleBActions.m"; sourceTree = "<group>"; };
+		FEEBFDC537EA46C6A184049C5B88E705 /* LDMainArch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDMainArch-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1963A500CE3B43CAC45C56D1E3D260D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E665375FB20BA5B684D4BE427D76B5BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAC6633F0385B65498FC278095124A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659446BA9BE0C150B518E56C4E5CB497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53968E583EBF780D3387217156704A2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD778558AB7C8004B5FC91F5B478E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDC3F26DDB52869E7A60244F1F59D1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28DC1E0EFD7B38A04D557D1A45158335 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BAB870BB591B6CAD1A9F992C7309D1F /* Info.plist */,
+				1A3AFAEC19744DED980E278742A18F80 /* LDMainArch.modulemap */,
+				7B93ABB074BEE405C50104091EC02CCE /* LDMainArch.xcconfig */,
+				1D536790F8C370A19D0B25BF2ED5CAC8 /* LDMainArch-dummy.m */,
+				FEEBFDC537EA46C6A184049C5B88E705 /* LDMainArch-prefix.pch */,
+				5E3BAF5EA45EE58D01F71829ED1B5962 /* LDMainArch-umbrella.h */,
+				69178B5CE516D958956A4E93F91676ED /* ResourceBundle-LDMainArch-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LDMainArch";
+			sourceTree = "<group>";
+		};
+		2E96F4883AE31F92193C7468DC8AB498 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C2026D8AC30E0D3EB35624BC4FE95948 /* LDMainArch.podspec */,
+				330F508B151BC161FFFAFC9D17C88081 /* LICENSE */,
+				39B05B024E235107665B5A64399AE384 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3F1AFAB0FEAD2A023A70391EF8AEF5E1 /* ArchBase */ = {
+			isa = PBXGroup;
+			children = (
+				BFCC1915BB166F9A9DCDECAE5B19BF1A /* LDConfigVCTool.h */,
+				18003B5D0D00E06551307A7F3F2B1711 /* LDConfigVCTool.m */,
+				7B49F038C50A333D1CF50BD4BF4C1768 /* LDLoadMainArchSourceTool.h */,
+				CB81921E99E8FCCFE11D3D82B10D21D6 /* LDLoadMainArchSourceTool.m */,
+				832A88346DADA526CCFBAEC66E046DBF /* NSObject+LDBase.h */,
+				060228DE9E9C21960D4854D074213C5F /* NSObject+LDBase.m */,
+				5ADDF07710535D40FAAF251E090C212C /* UINavigationController+LDBase.h */,
+				46A04C5A2FA53D20534DBD9FFB0A99B7 /* UINavigationController+LDBase.m */,
+				3696E572F3731A8EC02461EE1EF32B8A /* UITabBarController+LDBase.h */,
+				76CCE9977EF453CEEEDD959D128DBB8D /* UITabBarController+LDBase.m */,
+				0FEB4B68990E24B2BA7AFE6DB34F7AD0 /* UIViewController+LDLogin.h */,
+				D6E659B53684B0CE2221300E2D754B38 /* UIViewController+LDLogin.m */,
+				B88F0B72255F1074896AE90BF8F51E25 /* UIViewController+LDNaviBar.h */,
+				AEC07E6E7517A7003E218147F90922AF /* UIViewController+LDNaviBar.m */,
+			);
+			name = ArchBase;
+			path = LDMainArch/Classes/ArchBase;
+			sourceTree = "<group>";
+		};
+		43D2883F9FE150EE0F217DF352E94CA9 /* LDMainArch */ = {
+			isa = PBXGroup;
+			children = (
+				3F1AFAB0FEAD2A023A70391EF8AEF5E1 /* ArchBase */,
+				BEB9D780968FE8CBB20243E67443B403 /* ArchMediator */,
+				2E96F4883AE31F92193C7468DC8AB498 /* Pod */,
+				698BB698C362E4756E4401A5C6319984 /* Resources */,
+				28DC1E0EFD7B38A04D557D1A45158335 /* Support Files */,
+			);
+			name = LDMainArch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		698BB698C362E4756E4401A5C6319984 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3E2FC942BF49552FA846C488DB4F8 /* BTN_entre.png */,
+				29B15E7FCACB8783378B42CA3726C3CB /* icon_back_default.png */,
+				55D2EDD9DF47869A85413701C0E6967A /* P1.png */,
+				22CD963DC6D31F7D9439A78125A5CDA1 /* P2.png */,
+				21A89961617041BDC40B4A8508CE13D9 /* P3.png */,
+				641CA427F1B972DAD15E5DF099959FFE /* P4.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6DBC16286DA7E806F76B9DC7A724FA65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C883F8C0424D2A8C38E76B1CCDC080 /* LDMainArch.bundle */,
+				AFD5C1511EF72F4A9CE64043353BE751 /* LDMainArch.framework */,
+				A666F8E039E5AFD4C90498FD02312094 /* Pods_LDMainArch_Example.framework */,
+				D29B994A96C419D058AB091487317E7E /* Pods_LDMainArch_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B4328989A8F70DF94E1CAF8B125451CC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6DBC16286DA7E806F76B9DC7A724FA65 /* Products */,
+				8B930F66DAD77F898F57DFEABB8B03E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B930F66DAD77F898F57DFEABB8B03E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8A586DD29AC03B5B45E32F824E9D5F /* Pods-LDMainArch_Example */,
+				9A9DE62403549289B094E51AF172217E /* Pods-LDMainArch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A9DE62403549289B094E51AF172217E /* Pods-LDMainArch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1983B1F57B798422708CABE32384B138 /* Info.plist */,
+				D2192A1B450A50FEA696D9DBE57F0BB6 /* Pods-LDMainArch_Tests.modulemap */,
+				1A391AA8ADF68902E3A9EE32B7F35ECD /* Pods-LDMainArch_Tests-acknowledgements.markdown */,
+				D5CB973DECA6EBF9A41BE992B738554A /* Pods-LDMainArch_Tests-acknowledgements.plist */,
+				5B1E16467FC1700222A22740D6560DF4 /* Pods-LDMainArch_Tests-dummy.m */,
+				7C1B2CA1BD16F01268C511DE9BB8B49F /* Pods-LDMainArch_Tests-frameworks.sh */,
+				0475842B490E18DCC7E2C9D813AA2347 /* Pods-LDMainArch_Tests-resources.sh */,
+				291BFD8C3D7C4D70AC34B438B4AE2D42 /* Pods-LDMainArch_Tests-umbrella.h */,
+				3358085B25D43CB97E13D44814243598 /* Pods-LDMainArch_Tests.debug.xcconfig */,
+				435A56CA75874A6F874FE0BE2351908C /* Pods-LDMainArch_Tests.release.xcconfig */,
+			);
+			name = "Pods-LDMainArch_Tests";
+			path = "Target Support Files/Pods-LDMainArch_Tests";
+			sourceTree = "<group>";
+		};
+		B4328989A8F70DF94E1CAF8B125451CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43D2883F9FE150EE0F217DF352E94CA9 /* LDMainArch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEB9D780968FE8CBB20243E67443B403 /* ArchMediator */ = {
+			isa = PBXGroup;
+			children = (
+				BE3E9D08A041A4B2C6E147BEB8DEADA6 /* LDMediator.h */,
+				271B7EB4B0146ADB708DFCB6A1A01A86 /* LDMediator.m */,
+				977A1CB2F3B2DC982782C9C2210F5E3D /* LDMediator+LDModuleAActions.h */,
+				ADC055B49CF8E84768F3E11096FE8895 /* LDMediator+LDModuleAActions.m */,
+				E388F2DB68B21491AEFDCE49664A06D1 /* LDMediator+LDModuleBActions.h */,
+				F67B4ADF647401E0248E02DF795BA530 /* LDMediator+LDModuleBActions.m */,
+				ECF36FE43F9A5A77822E53DD242C7E79 /* LDMediator+LDModuleLoginActions.h */,
+				2D8BEEF751CD0A8D4CC8493D5611CAC9 /* LDMediator+LDModuleLoginActions.m */,
+			);
+			name = ArchMediator;
+			path = LDMainArch/Classes/ArchMediator;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FB8A586DD29AC03B5B45E32F824E9D5F /* Pods-LDMainArch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5B769CFB945F183C13F389149760DAC3 /* Info.plist */,
+				18452B6B9BC1D5855E8967B86C4D9C63 /* Pods-LDMainArch_Example.modulemap */,
+				B70E18B12E711F9CACB73D86A70B5627 /* Pods-LDMainArch_Example-acknowledgements.markdown */,
+				C9FBF6DEB49C08DF7716F2CF49EDE47F /* Pods-LDMainArch_Example-acknowledgements.plist */,
+				D3FE021BC920217ED95EABDFFF11A5BA /* Pods-LDMainArch_Example-dummy.m */,
+				7231929815FB7507698234E5D917BD3F /* Pods-LDMainArch_Example-frameworks.sh */,
+				33F78E64EB0AAA3944F11D719B74EBDD /* Pods-LDMainArch_Example-resources.sh */,
+				B86857542C6996102286E9644F50C8AB /* Pods-LDMainArch_Example-umbrella.h */,
+				50BDF22E60DB84964563499ACEC3BE81 /* Pods-LDMainArch_Example.debug.xcconfig */,
+				D9AA4D43E832AD6DCEB19C4CAA59FDA2 /* Pods-LDMainArch_Example.release.xcconfig */,
+			);
+			name = "Pods-LDMainArch_Example";
+			path = "Target Support Files/Pods-LDMainArch_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D970F26BEF5C2A137DAD26C99928D42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD807BB87234143CC60A63148E5D30A /* Pods-LDMainArch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87194463E5D98375BD749EFE08E4406 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0A90A5DF03A6F51AF25AF0E0B40D09 /* Pods-LDMainArch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F1605EF6E0F78A21B698132110F1AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD34BAC9BC22ABF2B57CD8F9458731D /* LDConfigVCTool.h in Headers */,
+				F35292CEBEFC170603D7BF6FFEA2A726 /* LDLoadMainArchSourceTool.h in Headers */,
+				EF5605DA90AE573CFFA56A29E4648529 /* LDMainArch-umbrella.h in Headers */,
+				89CB332D6CEE635A110E0B7D7426AB58 /* LDMediator+LDModuleAActions.h in Headers */,
+				9261E632956B8589B2FCF3D14ACB38C0 /* LDMediator+LDModuleBActions.h in Headers */,
+				04D25C8F5EDD1A63ACC00F6BD13B2102 /* LDMediator+LDModuleLoginActions.h in Headers */,
+				B44F8A4A5806F46C774B48B67850E24E /* LDMediator.h in Headers */,
+				FABD0ED5A75C8DEE3A351A32E859E048 /* NSObject+LDBase.h in Headers */,
+				1FFC6DAFD6227733D4621FFD1CF4EB41 /* UINavigationController+LDBase.h in Headers */,
+				1F888BDD12813694394E1F99106C1E61 /* UITabBarController+LDBase.h in Headers */,
+				45DF228FAEB035BA4FE761F2B5FCB448 /* UIViewController+LDLogin.h in Headers */,
+				E46BEC1A8CC32DEA5101627F616DC1AC /* UIViewController+LDNaviBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B29A3B07FF8A157FCB83896DC9F8A93 /* LDMainArch-LDMainArch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6CC1C042BE6D73CE2D212CE0BBF7E2 /* Build configuration list for PBXNativeTarget "LDMainArch-LDMainArch" */;
+			buildPhases = (
+				A8D23B2CB1159997ADBC095F4AE843BD /* Sources */,
+				3FAC6633F0385B65498FC278095124A7 /* Frameworks */,
+				35236035C940F7E1830800E8559060B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LDMainArch-LDMainArch";
+			productName = "LDMainArch-LDMainArch";
+			productReference = 55C883F8C0424D2A8C38E76B1CCDC080 /* LDMainArch.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BF855FB22AB0EDE38FDDE8D34068D435 /* LDMainArch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97428605021BC9C0226051B582CD5CA8 /* Build configuration list for PBXNativeTarget "LDMainArch" */;
+			buildPhases = (
+				2EEAF1724DFE0ED9E58813AF6C55B95A /* Sources */,
+				7CD778558AB7C8004B5FC91F5B478E47 /* Frameworks */,
+				E5DF7E410E6F7BD68EE45E2DFEEEBD3C /* Resources */,
+				D0F1605EF6E0F78A21B698132110F1AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CCC053428E5C58C3CC41B14E4AB3E1 /* PBXTargetDependency */,
+			);
+			name = LDMainArch;
+			productName = LDMainArch;
+			productReference = AFD5C1511EF72F4A9CE64043353BE751 /* LDMainArch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D92AB45756A6C95452C2C373EBFD35E5 /* Pods-LDMainArch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE2B5EA05866CAB848D337669A74608 /* Build configuration list for PBXNativeTarget "Pods-LDMainArch_Tests" */;
+			buildPhases = (
+				E77CFF8E9E59EF2BE9710F18911A67C8 /* Sources */,
+				1963A500CE3B43CAC45C56D1E3D260D7 /* Frameworks */,
+				4D970F26BEF5C2A137DAD26C99928D42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LDMainArch_Tests";
+			productName = "Pods-LDMainArch_Tests";
+			productReference = D29B994A96C419D058AB091487317E7E /* Pods_LDMainArch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F17A9ED01AE75D1513D40AC962DC93D5 /* Pods-LDMainArch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24A22F88EB715EBFB1B73C09BB29F0B /* Build configuration list for PBXNativeTarget "Pods-LDMainArch_Example" */;
+			buildPhases = (
+				278A01AAB0DC112F13F17EF87BC69000 /* Sources */,
+				659446BA9BE0C150B518E56C4E5CB497 /* Frameworks */,
+				A87194463E5D98375BD749EFE08E4406 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A1598F6DBC60E3E173BE29652927AD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-LDMainArch_Example";
+			productName = "Pods-LDMainArch_Example";
+			productReference = A666F8E039E5AFD4C90498FD02312094 /* Pods_LDMainArch_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6DBC16286DA7E806F76B9DC7A724FA65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF855FB22AB0EDE38FDDE8D34068D435 /* LDMainArch */,
+				8B29A3B07FF8A157FCB83896DC9F8A93 /* LDMainArch-LDMainArch */,
+				F17A9ED01AE75D1513D40AC962DC93D5 /* Pods-LDMainArch_Example */,
+				D92AB45756A6C95452C2C373EBFD35E5 /* Pods-LDMainArch_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35236035C940F7E1830800E8559060B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72E5EC94214548A0718334BD3F8C7ED /* BTN_entre.png in Resources */,
+				87154568A26D83BF312BAD70FABC8DFC /* icon_back_default.png in Resources */,
+				1F577BFEED8977B9C83E57A901D93980 /* P1.png in Resources */,
+				208C443F1D7BA17DD0942D844828508C /* P2.png in Resources */,
+				FBE72EAFF27EABEF065D7C7CA2D55DDD /* P3.png in Resources */,
+				475DC94BFB3D9A52B905278C34C6A2DA /* P4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5DF7E410E6F7BD68EE45E2DFEEEBD3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1C598F55FC15E871520A44BB5E642F /* LDMainArch.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278A01AAB0DC112F13F17EF87BC69000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D312158EBF810F506BA224794A903FF5 /* Pods-LDMainArch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEAF1724DFE0ED9E58813AF6C55B95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EB1F422634AD4E9DE912CF2F52E1AB /* LDConfigVCTool.m in Sources */,
+				6D7E6C786C7417248DEC5811EA89DAD9 /* LDLoadMainArchSourceTool.m in Sources */,
+				CC481BA395844AA374E641E7A2BA2F11 /* LDMainArch-dummy.m in Sources */,
+				C4B17D6FE8E254A8BE0891352D85AC41 /* LDMediator+LDModuleAActions.m in Sources */,
+				A2868DE8B4AC0096265C298299E2F5A1 /* LDMediator+LDModuleBActions.m in Sources */,
+				CE904231C420A0770C4328A0464F6C7E /* LDMediator+LDModuleLoginActions.m in Sources */,
+				291FFE10CA8A36E50437D2F642053C37 /* LDMediator.m in Sources */,
+				903349F6F75A13FCBB92569F10DD7986 /* NSObject+LDBase.m in Sources */,
+				468ECCF0FA61AC646B3C995171422E6C /* UINavigationController+LDBase.m in Sources */,
+				B8688B22A14358FFB850551363348DBF /* UITabBarController+LDBase.m in Sources */,
+				FDAC6E4C4BFF18A6EA3394A4FC41C4BF /* UIViewController+LDLogin.m in Sources */,
+				580963621ACC6BCFE8477DF0D69BE3BE /* UIViewController+LDNaviBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D23B2CB1159997ADBC095F4AE843BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77CFF8E9E59EF2BE9710F18911A67C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8FB17CAD6614305E89C8EF0C83F19D /* Pods-LDMainArch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A1598F6DBC60E3E173BE29652927AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LDMainArch;
+			target = BF855FB22AB0EDE38FDDE8D34068D435 /* LDMainArch */;
+			targetProxy = 551582D73C43688C53A6F219CC784D1C /* PBXContainerItemProxy */;
+		};
+		30CCC053428E5C58C3CC41B14E4AB3E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LDMainArch-LDMainArch";
+			target = 8B29A3B07FF8A157FCB83896DC9F8A93 /* LDMainArch-LDMainArch */;
+			targetProxy = 35D2FDB2D9C071161B738326F29CD627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07260337201AA31753EDA5C650AD8CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B93ABB074BEE405C50104091EC02CCE /* LDMainArch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LDMainArch/LDMainArch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LDMainArch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LDMainArch/LDMainArch.modulemap";
+				PRODUCT_NAME = LDMainArch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20F056591A9171A95FE37EE9D78ECB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3358085B25D43CB97E13D44814243598 /* Pods-LDMainArch_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDMainArch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDMainArch_Tests/Pods-LDMainArch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LDMainArch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F45BF2F8D3E6136617D9D506B3D6F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B93ABB074BEE405C50104091EC02CCE /* LDMainArch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LDMainArch";
+				INFOPLIST_FILE = "Target Support Files/LDMainArch/ResourceBundle-LDMainArch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LDMainArch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		798C38A369331931898660C331B3F1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 435A56CA75874A6F874FE0BE2351908C /* Pods-LDMainArch_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDMainArch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDMainArch_Tests/Pods-LDMainArch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LDMainArch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA7FCC86EB6C9A45FDD2643AFA781ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B93ABB074BEE405C50104091EC02CCE /* LDMainArch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LDMainArch";
+				INFOPLIST_FILE = "Target Support Files/LDMainArch/ResourceBundle-LDMainArch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LDMainArch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DCED6638A5AED6AD9BA0769391392372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9AA4D43E832AD6DCEB19C4CAA59FDA2 /* Pods-LDMainArch_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDMainArch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDMainArch_Example/Pods-LDMainArch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LDMainArch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1605533B44E049C54F420E02EFB2C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B93ABB074BEE405C50104091EC02CCE /* LDMainArch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LDMainArch/LDMainArch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LDMainArch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LDMainArch/LDMainArch.modulemap";
+				PRODUCT_NAME = LDMainArch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAE5D0F0136E7AC9D39BD11216733EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50BDF22E60DB84964563499ACEC3BE81 /* Pods-LDMainArch_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LDMainArch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDMainArch_Example/Pods-LDMainArch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LDMainArch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE2B5EA05866CAB848D337669A74608 /* Build configuration list for PBXNativeTarget "Pods-LDMainArch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F056591A9171A95FE37EE9D78ECB19 /* Debug */,
+				798C38A369331931898660C331B3F1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97428605021BC9C0226051B582CD5CA8 /* Build configuration list for PBXNativeTarget "LDMainArch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07260337201AA31753EDA5C650AD8CC8 /* Debug */,
+				E1605533B44E049C54F420E02EFB2C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6CC1C042BE6D73CE2D212CE0BBF7E2 /* Build configuration list for PBXNativeTarget "LDMainArch-LDMainArch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7FCC86EB6C9A45FDD2643AFA781ED8 /* Debug */,
+				3F45BF2F8D3E6136617D9D506B3D6F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24A22F88EB715EBFB1B73C09BB29F0B /* Build configuration list for PBXNativeTarget "Pods-LDMainArch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE5D0F0136E7AC9D39BD11216733EED /* Debug */,
+				DCED6638A5AED6AD9BA0769391392372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

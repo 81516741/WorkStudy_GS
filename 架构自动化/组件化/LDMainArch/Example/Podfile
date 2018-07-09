@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LDMainArch_Example' do
+  pod 'LDMainArch', :path => '../'
+
+  target 'LDMainArch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

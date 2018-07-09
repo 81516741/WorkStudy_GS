@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘RXSwift_Study’ do
+#pod 'ReactiveCocoa', '~> 7.0'
+
+pod 'RxSwift',    '~> 4.0'
+pod 'RxCocoa',    '~> 4.0'
+end
+

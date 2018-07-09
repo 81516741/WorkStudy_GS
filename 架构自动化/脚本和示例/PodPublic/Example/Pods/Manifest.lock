@@ -1,0 +1,16 @@
+PODS:
+  - PodPublic (0.1.0)
+
+DEPENDENCIES:
+  - PodPublic (from `../`)
+
+EXTERNAL SOURCES:
+  PodPublic:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PodPublic: b369ac9ecf3300463729df0d18539098be5dcf50
+
+PODFILE CHECKSUM: a1257f05c85806ed25eaa5ebd17f555b0dd0e13f
+
+COCOAPODS: 1.4.0

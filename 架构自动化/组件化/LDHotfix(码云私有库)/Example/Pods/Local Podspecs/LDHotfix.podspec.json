@@ -1,0 +1,27 @@
+{
+  "name": "LDHotfix",
+  "version": "0.1.0",
+  "summary": "A short description of LDHotfix.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/81516741@qq.com/LDHotfix",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "81516741@qq.com": "ldld"
+  },
+  "source": {
+    "git": "https://github.com/81516741@qq.com/LDHotfix.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LDHotfix/Classes/**/*",
+  "dependencies": {
+    "Aspects": [
+
+    ]
+  }
+}

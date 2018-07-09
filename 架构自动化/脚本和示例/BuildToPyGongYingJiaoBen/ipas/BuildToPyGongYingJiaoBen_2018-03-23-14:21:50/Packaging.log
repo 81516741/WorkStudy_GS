@@ -1,0 +1,521 @@
+2018-03-23 06:22:06 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f80b467b3d0; archive(resolved)='<IDEArchive: 0x7f80b47ee910>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team(resolved)='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f80b467b3d0; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f80b4679cf0; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	<IDEDistributionContext: 0x7f80b4679b60; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	<IDEDistributionContext: 0x7f80b48ac320; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	<IDEDistributionContext: 0x7f80b487eac0; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	<IDEDistributionContext: 0x7f80b46476e0; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	<IDEDistributionContext: 0x7f80b488dff0; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	<IDEDistributionContext: 0x7f80b48973b0; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	<IDEDistributionContext: 0x7f80b462b850; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='<IDEProvisioningBasicTeam 0x7f80b48ad8d0: teamID: 6PC6RGKAHL, teamName: (null)>'>
+	<IDEDistributionContext: 0x7f80b47f3a80; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f80b47d4520>', team='(null)'>
+	<IDEDistributionContext: 0x7f80b47f24d0; archive = '<IDEArchive: 0x7f80b47ee910>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f80b467b3d0>
+2018-03-23 06:22:06 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2018-03-23 06:22:06 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2018-03-23 06:22:06 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root/Payload/BuildToPyGongYingJiaoBen.app'
+2018-03-23 06:22:06 +0000  >>> Copying /Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app 
+2018-03-23 06:22:06 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-03-23 06:22:06 +0000  6475 bytes for ./_CodeSignature/CodeResources
+2018-03-23 06:22:06 +0000  copying file ./BuildToPyGongYingJiaoBen ... 
+2018-03-23 06:22:06 +0000  111520 bytes for ./BuildToPyGongYingJiaoBen
+2018-03-23 06:22:06 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-03-23 06:22:06 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-03-23 06:22:06 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-03-23 06:22:06 +0000  1144 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-03-23 06:22:06 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-03-23 06:22:06 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-03-23 06:22:06 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-03-23 06:22:06 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-03-23 06:22:06 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-03-23 06:22:06 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-03-23 06:22:06 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-03-23 06:22:06 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-03-23 06:22:06 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2018-03-23 06:22:06 +0000  366 bytes for ./archived-expanded-entitlements.xcent
+2018-03-23 06:22:06 +0000  copying file ./Podfile ... 
+2018-03-23 06:22:06 +0000  76 bytes for ./Podfile
+2018-03-23 06:22:06 +0000  copying file ./Frameworks/MJExtension.framework/_CodeSignature/CodeResources ... 
+2018-03-23 06:22:06 +0000  2202 bytes for ./Frameworks/MJExtension.framework/_CodeSignature/CodeResources
+2018-03-23 06:22:06 +0000  copying file ./Frameworks/MJExtension.framework/MJExtension ... 
+2018-03-23 06:22:06 +0000  508272 bytes for ./Frameworks/MJExtension.framework/MJExtension
+2018-03-23 06:22:06 +0000  copying file ./Frameworks/MJExtension.framework/Info.plist ... 
+744 bytes for ./Frameworks/MJExtension.framework/Info.plist
+copying file ./embedded.mobileprovision ... 
+2018-03-23 06:22:06 +0000  7800 bytes for ./embedded.mobileprovision
+2018-03-23 06:22:06 +0000  copying file ./Info.plist ... 
+2018-03-23 06:22:06 +0000  1116 bytes for ./Info.plist
+2018-03-23 06:22:06 +0000  copying file ./PkgInfo ... 
+2018-03-23 06:22:06 +0000  8 bytes for ./PkgInfo
+2018-03-23 06:22:06 +0000  2018-03-23 06:22:06 +0000  
+
+2018-03-23 06:22:06 +0000  2018-03-23 06:22:06 +0000 [MT] /usr/bin/ditto exited with 0
+2018-03-23 06:22:06 +0000  
+
+2018-03-23 06:22:06 +0000  2018-03-23 06:22:06 +0000  
+
+2018-03-23 06:22:06 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2018-03-23 06:22:06 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f80b48ac1b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7f80b4643fe0:'/Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework'>'>
+2018-03-23 06:22:06 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2018-03-23 06:22:06 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-03-23 06:22:06 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2018-03-23 06:22:06 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root' '--json' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool-json-filepath-PHhynQ' '--compile-bitcode' '--output' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/IDEIPAProcessor.AppThinning.AY0' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-03-23 06:22:06 +0000  ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
+2018-03-23 06:22:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - minVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1602: warning: assigned but unused variable - sourceVersion
+2018-03-23 06:22:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1703: warning: shadowing outer local variable - node
+2018-03-23 06:22:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoImage
+2018-03-23 06:22:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2497: warning: key :hasBitcode is duplicated and overwritten on line 2499
+2018-03-23 06:22:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - transformer
+2018-03-23 06:22:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2912: warning: assigned but unused variable - exc
+2018-03-23 06:22:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:738: warning: assigned but unused variable - output
+2018-03-23 06:22:06 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-03-23 06:22:06 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-03-23 06:22:06 +0000  OS X 10.13.3 17D47
+2018-03-23 06:22:06 +0000  ENV: {"TERM_SESSION_ID"=>"5E6DED54-C299-43CE-A1C6-87DDDF626A28", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.XTagdy4GYH/Listeners", "OLDPWD"=>"/Users/lingda/Desktop/BuildToPyGongYingJiaoBen", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.XAPeQ7LrKM/Render", "XPC_FLAGS"=>"0x0", "LANG"=>"zh_CN.UTF-8", "PWD"=>"/Users/lingda/Desktop/BuildToPyGongYingJiaoBen", "SHELL"=>"/bin/bash", "TERM_PROGRAM_VERSION"=>"400", "TERM_PROGRAM"=>"Apple_Terminal", "PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "SHLVL"=>"2", "TERM"=>"xterm-256color", "_"=>"/usr/bin/xcodebuild", "HOME"=>"/Users/lingda", "TMPDIR"=>"/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/", "USER"=>"lingda", "XPC_SERVICE_NAME"=>"0", "LOGNAME"=>"lingda", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34"}
+ARGV: ["/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root", "--json", "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool-json-filepath-PHhynQ", "--compile-bitcode", "--output", "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/IDEIPAProcessor.AppThinning.AY0", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-03-23 06:22:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:101: warning: method redefined; discarding old to_h
+2018-03-23 06:22:06 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-03-23 06:22:06 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-03-23 06:22:06 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-03-23 06:22:06 +0000  Scanning IPA...
+2018-03-23 06:22:06 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature MJExtension
+2018-03-23 06:22:06 +0000      /usr/bin/python exited with pid 15739 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-03-23 06:22:06 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) MJExtension MJExtension
+2018-03-23 06:22:06 +0000      /usr/bin/python exited with pid 15740 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-03-23 06:22:06 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature BuildToPyGongYingJiaoBen
+2018-03-23 06:22:06 +0000      /usr/bin/python exited with pid 15744 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-03-23 06:22:06 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) BuildToPyGongYingJiaoBen BuildToPyGongYingJiaoBen
+2018-03-23 06:22:06 +0000      /usr/bin/python exited with pid 15745 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-03-23 06:22:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:327: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-03-23 06:22:06 +0000  Complete LinkageGraph:
+    BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen arm64 ->
+        BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension arm64
+    BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension arm64 ->
+2018-03-23 06:22:06 +0000  Validating IPA structure...
+2018-03-23 06:22:07 +0000  Compiling bitcode...
+2018-03-23 06:22:07 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -o /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension --generate-dsym /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension.dSYM --strip-swift-symbols /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension
+2018-03-23 06:22:07 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'MJExtension'
+2018-03-23 06:22:08 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 15773 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension" 
+        -= Output =-
+        Non-fat file: /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension" 
+        -= Output =-
+        UUID: A4506FF6-52F3-3F29-9F32-93397DB64734 (arm64) /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension" "-extract" "__LLVM" "__bundle" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/MJExtensionZLu2KK/MJExtension.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "01" "-o" "01.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "02" "-o" "02.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "03" "-o" "03.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/
+2018-03-23 06:22:08 +0000  8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "04" "-o" "04.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "05" "-o" "05.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "06" "-o" "06.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "07" "-o" "07.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "08" "-o" "08.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "09" "-o" "09.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "10" "-o" "10.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "11" "-o" "11.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "12" "-o" "12.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios4.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "13" "-o" "13.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Conte
+2018-03-23 06:22:08 +0000  nts/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempv7LOBh
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-dylib" "-compatibility_version" "1.0.0" "-current_version" "1.0.0.0.0" "-install_name" "@rpath/MJExtension.framework/MJExtension" "-ios_version_min" "8.0.0" "-rpath" "@executable_path/Frameworks" "-rpath" "@loader_path/Frameworks" "-dead_strip" "-export_dynamic" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk" "-sdk_version" "11.2.0" "-filelist" "/private/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/MJExtensionZLu2KK/MJExtension.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/MJExtensionZLu2KK/MJExtension.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension" 
+        -= Output =-
+        UUID: 30FDC11C-2A3F-36C4-BED9-EF3C5BF69A9D (arm64) /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/T
+2018-03-23 06:22:08 +0000  oolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension" "-o" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripDebug: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "-STx" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+2018-03-23 06:22:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension
+2018-03-23 06:22:08 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 15799 exit 0
+    Stdout:
+        /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension [arm64, 0.011259 seconds]:
+    
+    Stderr:
+2018-03-23 06:22:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin -L /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -o /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen --generate-dsym /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen.dSYM --strip-swift-symbols /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen
+2018-03-23 06:22:08 +0000      Compiling arm64 bitcode in 'BuildToPyGongYingJiaoBen'
+2018-03-23 06:22:09 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 15808 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen" 
+        -= Output =-
+        Non-fat file: /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen" 
+        -= Output =-
+        UUID: 565995C2-C178-3D0D-AB15-C9AAE4EB9207 (arm64) /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen" "-extract" "__LLVM" "__bundle" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/BuildToPyGongYingJiaoBenRTIuiJ/BuildToPyGongYingJiaoBen.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempyvwVTa
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempyvwVTa
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempyvwVTa
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-O0" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698
+2018-03-23 06:22:09 +0000  -eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/tempyvwVTa
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "11.2.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-rpath" "@loader_path/Frameworks" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/lingda/Library/Developer/Xcode/DerivedData/BuildToPyGongYingJiaoBen-ffgkhntbyfkuchdtdqebfkfdbdnf/Build/Intermediates.noindex/ArchiveIntermediates/BuildToPyGongYingJiaoBen/InstallationBuildProductsLocation/Applications/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen" "-dead_strip" "-export_dynamic" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk" "-sdk_version" "11.2.0" "-filelist" "/private/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/BuildToPyGongYingJiaoBenRTIuiJ/BuildToPyGongYingJiaoBen.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/BuildToPyGongYingJiaoBenRTIuiJ/BuildToPyGongYingJiaoBen.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen" 
+        -= Output =-
+        UUID: 3F477F29-1D72-33D7-8771-8A999602E200 (arm64) /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using:
+2018-03-23 06:22:09 +0000   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen" "-o" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+2018-03-23 06:22:09 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen
+2018-03-23 06:22:09 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 15824 exit 0
+    Stdout:
+        /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/ipatool20180323-15698-eysvl6/thinned/arm64/Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen [arm64, 0.005361 seconds]:
+    
+    Stderr:
+2018-03-23 06:22:09 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/IDEIPAProcessor.AppThinning.AY0/universal
+  Copying BuildToPyGongYingJiaoBen.app output payload directory
+2018-03-23 06:22:09 +0000  /Library/Ruby/Gems/2.3.0/gems/CFPropertyList-3.0.0/lib/cfpropertylist/rbCFPropertyList.rb:378: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-03-23 06:22:09 +0000    Copying .dSYM files to /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/IDEIPAProcessor.AppThinning.AY0/universal/dSYMs
+  Copying .symbols files to /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/IDEIPAProcessor.AppThinning.AY0/universal/Symbols
+2018-03-23 06:22:09 +0000  2018-03-23 06:22:09 +0000  
+
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000 [MT] /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 02018-03-23 06:22:09 +0000  
+
+
+2018-03-23 06:22:09 +0000  2018-03-23 06:22:09 +0000  
+
+2018-03-23 06:22:09 +0000 [MT] ipatool JSON: {
+    alerts =     (
+                {
+            code = 2817;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+    );
+    universalIPA =     {
+        path = "/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/IDEIPAProcessor.AppThinning.AY0/universal";
+    };
+}
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2018-03-23 06:22:09 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2018-03-23 06:22:09 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2018-03-23 06:22:09 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionODRStep
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2018-03-23 06:22:09 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f80b48ac1b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7f80b4643fe0:'/Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework'>'>
+2018-03-23 06:22:09 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root/Payload/BuildToPyGongYingJiaoBen.app'
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  2018-03-23 06:22:09 +0000 [MT] /usr/bin/xattr exited with 0
+
+2018-03-23 06:22:09 +0000  2018-03-23 06:22:09 +0000  
+
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2018-03-23 06:22:09 +0000 [MT] Applying entitlements delta for <IDEDistributionItem: 0x7f80b48ac1b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7f80b4643fe0:'/Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f80b48a76a0>: {
+}
+2018-03-23 06:22:09 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f80b48ac1b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7f80b4643fe0:'/Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework'>'>: {
+}
+2018-03-23 06:22:09 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f80b48ac1b0 'org.cocoapods.MJExtension' '<DVTFilePath:0x7f80b4643fe0:'/Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework'>'> to: /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/entitlementsft9EYg
+2018-03-23 06:22:09 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '76C889DF88DBF4846EE85651E96BE0B20898C06B' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/entitlementsft9EYg' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework'
+2018-03-23 06:22:09 +0000  /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root/Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.MJExtension]
+2018-03-23 06:22:09 +0000  2018-03-23 06:22:09 +0000  
+
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000 [MT] /usr/bin/codesign exited with 0
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000 [MT] Applying entitlements delta for <IDEDistributionItem: 0x7f80b488a0b0 'com.hello.ada1' '<DVTFilePath:0x7f80b43998d0:'/Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7f80b48a7580>: {
+}
+2018-03-23 06:22:09 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f80b488a0b0 'com.hello.ada1' '<DVTFilePath:0x7f80b43998d0:'/Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app'>'>: {
+    "application-identifier" = "6PC6RGKAHL.com.hello.ada1";
+    "com.apple.developer.team-identifier" = 6PC6RGKAHL;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "6PC6RGKAHL.com.hello.ada1"
+    );
+}
+2018-03-23 06:22:09 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f80b488a0b0 'com.hello.ada1' '<DVTFilePath:0x7f80b43998d0:'/Users/lingda/Desktop/BuildToPyGongYingJiaoBen/build/BuildToPyGongYingJiaoBen.xcarchive/Products/Applications/BuildToPyGongYingJiaoBen.app'>'> to: /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/entitlements3cldEU
+2018-03-23 06:22:09 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '76C889DF88DBF4846EE85651E96BE0B20898C06B' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/entitlements3cldEU' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root/Payload/BuildToPyGongYingJiaoBen.app'
+2018-03-23 06:22:09 +0000  /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root/Payload/BuildToPyGongYingJiaoBen.app: signed app bundle with Mach-O thin (arm64) [com.hello.ada1]
+2018-03-23 06:22:09 +0000  2018-03-23 06:22:09 +0000  
+
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  2018-03-23 06:22:09 +0000  
+
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000 [MT] /usr/bin/codesign exited with 0
+2018-03-23 06:22:09 +0000  2018-03-23 06:22:09 +0000  
+
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2018-03-23 06:22:09 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-23 06:22:09 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2018-03-23 06:22:09 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root' '/var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Packages/BuildToPyGongYingJiaoBen.ipa'
+2018-03-23 06:22:09 +0000  >>> Copying /var/folders/8z/3yz8hv415wd0gr5mrcz357gw0000gn/T/XcodeDistPipeline.vQa/Root 
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/_CodeSignature/CodeResources ... 
+2018-03-23 06:22:09 +0000  6475 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/_CodeSignature/CodeResources
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen ... 
+2018-03-23 06:22:09 +0000  61744 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/BuildToPyGongYingJiaoBen
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-03-23 06:22:09 +0000  916 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-03-23 06:22:09 +0000  1144 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-03-23 06:22:09 +0000  258 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/Main.storyboardc/Info.plist
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-03-23 06:22:09 +0000  1136 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-03-23 06:22:09 +0000  832 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-03-23 06:22:09 +0000  258 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/BuildToPyGongYingJiaoBen.app/archived-expanded-entitlements.xcent ... 
+2018-03-23 06:22:09 +0000  366 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/archived-expanded-entitlements.xcent
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/Podfile ... 
+76 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Podfile
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/_CodeSignature/CodeResources ... 
+2018-03-23 06:22:09 +0000  2202 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/_CodeSignature/CodeResources
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension ... 
+2018-03-23 06:22:09 +0000  136816 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/MJExtension
+copying file ./Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/Info.plist ... 
+2018-03-23 06:22:09 +0000  744 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Frameworks/MJExtension.framework/Info.plist
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/embedded.mobileprovision ... 
+2018-03-23 06:22:09 +0000  7800 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/embedded.mobileprovision
+2018-03-23 06:22:09 +0000  copying file ./Payload/BuildToPyGongYingJiaoBen.app/Info.plist ... 
+2018-03-23 06:22:09 +0000  2377 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/Info.plist
+copying file ./Payload/BuildToPyGongYingJiaoBen.app/PkgInfo ... 
+2018-03-23 06:22:09 +0000  8 bytes for ./Payload/BuildToPyGongYingJiaoBen.app/PkgInfo
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000 [MT] /usr/bin/ditto exited with 0
+2018-03-23 06:22:09 +0000  
+2018-03-23 06:22:09 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

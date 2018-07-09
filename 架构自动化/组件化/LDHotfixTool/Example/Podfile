@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LDHotfixTool_Example' do
+  pod 'LDHotfixTool', :path => '../'
+
+  target 'LDHotfixTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
